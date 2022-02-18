@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* color */
+:root {
+  --primary-color: #ff3f6c;
+  --secondary-color: #ff723f;
+  --light-secondary-color: #ff723f70;
+  --text-color: #282c3f;
+}
+
+body{
+    color: var(--text-color);
+}
+
+/* header */
+
+.header {
+  padding: 0;
+  width: 100%;
+}
+
+.header-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  width: 80%;
+  padding: 0;
+}
+.logo-container img {
+  width: 7em;
+  height: auto;
+}
+
+.logo-container .logo-name {
+  font-family: cursive;
+  margin-left: -2rem;
+  color: var(--primary-color);
+}
+
+.search-container {
+  padding: 0;
+  display: flex;
+
+  width: 50%;
+}
+.search-container .btn-search {
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-right: none;
+  cursor: pointer;
+  outline: none;
+}
+.search-container input[type="search"] {
+  width: 80%;
+  padding: 10px;
+  border-radius: 0;
+  margin: 0;
+  border-left: none;
+}
+
+.header-icons {
+  width: 50%;
+}
+
+.header-icons ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+   /* footer */
+footer {
+  bottom: 0; 
+  margin: 2rem 0 0 0;
+  padding: 4rem;
+  background-color: var(--light-secondary-color);
+}
+footer p {
+  margin-top: 0.5rem;
+}
+footer .footer-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .search-container {
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+  }
+  .search-container .btn-search {
+    width: 10%;
+  }
+  .search-container input[type="search"] {
+    width: 90%;
+  }
+  .logo-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 460px) {
+  .header {
+    gap: 2rem;
+  }
+  .logo-container a {
+    padding: 0;
+  }
+  .logo-container img {
+    width: 6em;
+  }
+  .logo-container .logo-name {
+    margin-left: -1rem;
+  }
+  .header-icons {
+    width: 100%;
+  }
+  .header-icons ul {
+    justify-content: flex-end;
+  }
+}
