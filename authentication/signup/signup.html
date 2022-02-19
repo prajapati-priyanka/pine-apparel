@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://pineui.netlify.app/css/components.css">
+    <link rel="stylesheet" href="/style-guide.css">
+    <link rel="stylesheet" href="/authentication/login/login.css">
+    <link rel="stylesheet" href="/authentication/signup/signup.css">
+    <title>Pine Apparel | Signup</title>
+</head>
+
+<body>
+    <header class="header">
+        <section class="header-section">
+            <div class="logo-container">
+                <a href="../index.html">
+                    <img src="/assets/logo.png" alt="logo" />
+                </a>
+                <span class="logo-name lg-text">Pine Apparel</span>
+            </div>
+        </section>
+
+        <div class="header-section">
+            <form class="search-container">
+                <button type="submit" class="btn-search">
+                    <i class="fa fa-search"></i>
+                </button>
+                <input type="search" placeholder="Search Product" class="input-search">
+            </form>
+            <section class="header-icons">
+                <ul>
+                    <li>
+                        <button class="btn btn-primary">Login</button>
+                    </li>
+                    <li>
+                        <div class="icon badge">
+                            <i class="fa fa-heart-o"></i>
+                            <span class="badge-count">8</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon badge">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span class="badge-count">8</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+     </header>
+
+    <main class="form-wrapper">
+        <div class="form-login">
+            <h2 class="form-title text-center x-lg-text">Signup</h2>
+            <form class="form-content form-signup md-text">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" placeholder="First Name">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" placeholder="Last Name">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="tanaypratap@neog.camp">
+                <label for="pass">Password</label>
+                <span class="input-pass">
+                    <input type="password" id="pass" placeholder="*******">
+                    <span class="eye-icon"><i class="fa fa-eye-slash"></i></span>
+                </span>
+               <label for="confirm-pass">Confirm Password:</label>
+               <span class="input-pass">
+                    <input type="password" id="confirm-pass" placeholder="*******">
+                    <span class="eye-icon"><i class="fa fa-eye-slash"></i></span>
+               </span>
+                
+                <div class="user-control">
+                    <input type="checkbox" class="input-check">
+                    <label>I accept all Terms & Conditions</label>
+                </div>
+                <button class="btn btn-primary" type="submit">Create New Account</button>
+                <p class="new-account text-center">Already have an account <a href="/authentication/login/login.html"
+                        class="md-text"> <img src="/assets/forward arrow.svg" class="forward-icon" alt=""></a></p>
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content text-center">
+            <h4 class="lg-text">Made With ❤️ By Priyanka Prajapati</h4>
+            <p class="text-center md-text">You can connect with me on:</p>
+            <div class="footer-links header-links x-lg-text">
+                <ul>
+                    <li><a href="https://github.com/prajapati-priyanka"><i class="fa fa-github-square"></i></a></li>
+                    <li> <a href="https://www.linkedin.com/in/priyanka-prajapati-853098146/"><i
+                                class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+             </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
