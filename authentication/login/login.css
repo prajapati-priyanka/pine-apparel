@@ -20,6 +20,7 @@
   width: 100%;
   padding: 1rem;
 }
+
 .form-login .form-content input {
   width: 100%;
   border: 1px solid var(--lynx-gray-color);
@@ -58,6 +59,12 @@
 .form-login button {
   width: 100%;
   margin: 0.5rem 0;
+}
+
+@media only screen and (max-width: 900px){
+  .form-wrapper{
+    margin: 4rem 0;
+  }
 }
 
 @media only screen and (max-width: 460px) {
