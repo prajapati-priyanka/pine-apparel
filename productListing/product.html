@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/png" href="/assets/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://pineui.netlify.app/css/components.css">
     <link rel="stylesheet" href="/style-guide.css">
-    <link rel="stylesheet" href="/productListing/product.css">
-    <title>Pine Apparel | Products</title>
+    <link rel="stylesheet" href="product.css">
+    <title>Pine Apparel | Product</title>
 </head>
+
 <body>
     <header class="header">
         <section class="header-section">
             <div class="logo-container">
-                <a href="/index.html">
+                <a href="../index.html">
                     <img src="/assets/logo.png" alt="logo" />
                 </a>
                 <span class="logo-name lg-text">Pine Apparel</span>
@@ -32,7 +35,9 @@
             <section class="header-icons">
                 <ul>
                     <li>
-                        <a href="/authentication/login/login.html"><button class="btn btn-primary">Login</button></a>
+                        <a href="/authentication/login/login.html">
+                            <button class="btn btn-primary">Login</button>
+                        </a>
                     </li>
                     <li>
                         <a href="/wishlist/wishlist.html">
@@ -56,22 +61,22 @@
 
     </header>
 
-     <div class="product-container">
-         <aside class="product-filter-container">
-             <div class="product-filter-clear">
-                 <h3 class="product-filter-heading lg-text">Filters</h3>
-                 <a href="" class="reset md-text">Clear</a>
-             </div>
-             <div class="filter-type">
-                 <h3 class= "filter-type-heading lg-text">Price</h3>
-                 <div class="filter-type-container price-filter">
-                     <label for="myRange" class="md-text">₹500 - ₹5000</label>
-                     <input type="range" min="200" max="10,000" value="1000" class="slider" id="myRange">
-                 </div>
-             </div>
-            
-             <div class="filter-type">
-                <h3 class= "filter-type-heading lg-text">Category</h3>
+    <div class="product-container">
+        <aside class="product-filter-container">
+            <div class="product-filter-clear">
+                <h3 class="product-filter-heading lg-text">Filters</h3>
+                <a href="" class="reset md-text">Clear</a>
+            </div>
+            <div class="filter-type">
+                <h3 class="filter-type-heading lg-text">Price</h3>
+                <div class="filter-type-container price-filter">
+                    <label for="myRange" class="md-text">₹500-₹5000</label>
+                    <input type="range" min="200" max="10,000" value="1000" class="slider" id="myRange">
+                </div>
+            </div>
+
+            <div class="filter-type">
+                <h3 class="filter-type-heading lg-text">Category</h3>
                 <div class="filter-type-container md-text">
                     <input type="checkbox" id="top" class="input-check">
                     <label for="top">Top</label>
@@ -94,7 +99,7 @@
                 </div>
             </div>
             <div class="filter-type">
-                <h3 class= "filter-type-heading lg-text">Rating</h3>
+                <h3 class="filter-type-heading lg-text">Rating</h3>
                 <div class="filter-type-container md-text">
                     <input type="radio" id="four-rating" class="input-radio">
                     <label for="four-rating">4 stars & above</label>
@@ -107,16 +112,16 @@
                     <input type="radio" id="two-rating" class="input-radio">
                     <label for="two-rating">2 stars & above</label>
                 </div>
-                   
+
                 <div class="filter-type-container md-text">
                     <input type="radio" id="one-rating" class="input-radio">
                     <label for="one-rating">1 stars & above</label>
                 </div>
-                   
-                
+
+
             </div>
             <div class="filter-type">
-                <h3 class= "filter-type-heading lg-text">Sort by</h3>
+                <h3 class="filter-type-heading lg-text">Sort by</h3>
                 <div class="filter-type-container md-text">
                     <input type="radio" id="low-high" class="input-radio">
                     <label for="low-high">Price-Low to High</label>
@@ -126,14 +131,13 @@
                     <label for="high-low">Price-High to Low</label>
                 </div>
             </div>
-            
-         </aside>
+        </aside>
 
-         <main class="product-display">
+        <main class="product-display">
             <div class="product-display-qty text-center ">
                 <p class="lg-text">Showing all products</p>
-                <p class="md-text">(Showing 20 products)</p>
-          </div>
+                <span class="md-text">(Showing 20 products)</span>
+            </div>
             <div class="product-display-container">
                 <div class="card vertical-card card-shadow">
                     <figure class="card-header">
@@ -147,7 +151,7 @@
                         <p class="card-subtitle md-text">Full Sleeve Padded Jacket</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹1,227</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -164,7 +168,7 @@
                         <p class="card-subtitle md-text">Pink Georgette Ruffled Saree</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹1349</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -181,7 +185,7 @@
                         <p class="card-subtitle md-text">Women Burgundy & Golden Printed Kurta with Trousers</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹1500</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -198,7 +202,7 @@
                         <p class="card-subtitle md-text">Pink & Gold-Coloured Ethnic Motifs Peplum Top</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹1199</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -215,7 +219,7 @@
                         <p class="card-subtitle md-text">Women Pink Printed Top</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹545</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -232,7 +236,7 @@
                         <p class="card-subtitle md-text">Women Blue Flared Mid-Rise Slash Knee Stretchable Jeans</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹14,000</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -249,7 +253,7 @@
                         <p class="card-subtitle md-text">Women Fuchsia Relaxed Fit High-Rise Jeans</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹999</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -266,7 +270,7 @@
                         <p class="card-subtitle md-text">Women Purple Solid Georgette Saree with Embellished Belt/p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹1,500</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -283,7 +287,7 @@
                         <p class="card-subtitle md-text">Pink & Golden Solid Zari Pure Linen Saree</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹3,500</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -300,7 +304,7 @@
                         <p class="card-subtitle md-text">ndya Navy Sequin Embroidered Panel Kurta</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹1,500</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -317,7 +321,7 @@
                         <p class="card-subtitle md-text">Navy Blue Printed Peplum Top</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹700</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
@@ -334,27 +338,35 @@
                         <p class="card-subtitle md-text">Lime Green Mini A-Line Dress</p>
                         <div class="card-price">
                             <span class="price-after-discount md-text">₹20,999</span>
-    
+
                         </div>
                         <button class="btn btn-primary">ADD TO CART</button>
                     </section>
                 </div>
-            </div>
-        </main>
-    </div>    
 
-        <footer>
-            <div class="footer-content ">
-                <h4 class="lg-text text-center">Made With ❤️ By Priyanka Prajapati</h4>
-                <p class="text-center md-text">You can connect with me on:</p>
-                <div class="footer-links header-links x-lg-text">
-                    <ul>
-                        <li><a href="https://github.com/prajapati-priyanka"><i class="fa fa-github-square"></i></a></li>
-                        <li> <a href="https://www.linkedin.com/in/priyanka-prajapati-853098146/"><i
-                                    class="fa fa-linkedin-square"></i></a></li>
-                    </ul>
-                </div>
             </div>
-        </footer>
+
+
+        </main>
+    </div>
+    <div class="filter-show header-links md-text">
+        <ul>
+            <li>FILTER</li>
+            <li>SORT</li>
+        </ul>
+    </div>
+
+    <footer class="footer-content">
+        <h4 class="lg-text text-center">Made With ❤️ By Priyanka Prajapati</h4>
+        <p class="text-center md-text">You can connect with me on:</p>
+        <div class="footer-links header-links x-lg-text">
+            <ul>
+                <li><a href="https://github.com/prajapati-priyanka"><i class="fa fa-github-square"></i></a></li>
+                <li> <a href="https://www.linkedin.com/in/priyanka-prajapati-853098146/"><i
+                            class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
+
 </html>
