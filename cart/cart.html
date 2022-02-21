@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://pineui.netlify.app/css/components.css">
+    <link rel="stylesheet" href="/style-guide.css">
+    <link rel="stylesheet" href="/wishlist/wishlist.css">
+    <link rel="stylesheet" href="/cart/cart.css">
+
+    <title>Pine Apparel | Cart</title>
+</head>
+<body>
+    <header class="header" >
+        <section class="header-section">
+            <div class="logo-container">
+                <a href="/index.html">
+                    <img src="/assets/logo.png" alt="logo" />
+                   
+                </a>
+                <span class="logo-name lg-text">Pine Apparel</span>
+               
+            </div>  
+            
+        </section>
+       
+      <div class="header-section">
+        <form class="search-container">
+            <button type="submit"
+            class="btn-search">
+                <i class="fa fa-search"></i>
+            </button>
+           
+            <input type="search" placeholder="Search Product" class="input-search" >
+        </form>
+        <section class="header-icons">
+          
+            <ul>
+                <li>
+                    <a href="/authentication/signout/signout.html">
+                        <button class="btn btn-primary">Logout</button>
+                    </a>
+                 
+                </li>
+                <li> 
+                    <a href="/wishlist/wishlist.html">
+                        <div class="icon badge">
+                            <i class="fa fa-heart-o"></i>
+                            <span class="badge-count">8</span>
+                        </div>
+                    </a>
+                
+                </li>
+                <li> <a href="cart.html">
+                    <div class="icon badge">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="badge-count">8</span>
+                    </div>
+                </a>
+                
+                </li>
+            </ul>
+        </section>
+      </div>
+      
+       
+    </header>
+    <main>
+        <h3 class="align-center page-title text-center lg-text">My Cart(2)</h3>
+        <div class="cart-bill-container ">
+            <div class="cart-container">
+                <div class="card card-horizontal card-shadow">
+   
+                    <figure class="card-header">
+                        <img src="cart-1.jpg"
+                            class="card-img" alt="">
+                    </figure>
+    
+                    <section class="card-body">
+                        <h5 class="card-title md-text">JUNEBERRY </h5>
+                        <p class="card-subtitle md-text">Casual Regular Sleeves Striped Women Blue Top</p>
+                        <div class="card-price">
+                            <span class="price-after-discount md-text">₹299</span>
+                            <span class="price-before-discount md-text">₹1,199</span>
+                            <span class="discount md-text">(75% off)</span>
+                        </div>
+                        <div class="card-quantity">
+                            <span class="product-quantity md-text">Quantity:</span>
+                            <span><img src="/assets/minus-icon.svg" alt=""></span>
+                            <input type="number" value="1" class="text-center">
+                            <span><img src="/assets/add-icon.svg" alt=""></span>
+                        </div>
+                        <div class="card-btn">
+                            <button class="btn btn-primary">REMOVE FROM CART</button>
+                            <button class="btn btn-outline-primary">SAVE TO WISHLIST</button>
+                         </div>   
+                    </section>
+                </div>
+               <div class="card card-horizontal card-shadow">
+   
+                <figure class="card-header">
+                    <img src="cart-2.jpg"
+                        class="card-img" alt="">
+                </figure>
+
+                <section class="card-body">
+                    <h5 class="card-title md-text">DRESSBERRY</h5>
+                    <p class="card-subtitle md-text"> Cotton Multi Color T-Shirts</p>
+                    <div class="card-price">
+                        <span class="price-after-discount md-text">₹329</span>
+                        <span class="price-before-discount md-text">₹1,199</span>
+                        <span class="discount md-text">(73% off)</span>
+                    </div>
+                    <div class="card-quantity">
+                        <span class="product-quantity md-text">Quantity:</span>
+                        <span><img src="/assets/minus-icon.svg" alt=""></span>
+                        <input type="number" value="1" class="text-center">
+                        <span><img src="/assets/add-icon.svg" alt=""></span>
+                    </div>
+                    <div class="card-btn">
+                        <button class="btn btn-primary">REMOVE FROM CART</button>
+                        <button class="btn btn-outline-primary">SAVE TO WISHLIST</button>
+                    </div> 
+                </section>
+            </div>
+            </div>
+            <div class="bill-container">
+               <div class="bill-card">
+                   <h5 class="card-title lg-text">PRICE DETAILS</h5>
+                   <div class="items-container">
+                       <div class="items-price md-text">
+                           <p class="item-type">Price (2 item)</p>
+                           <p class="item-type-price">₹ 2398</p>
+                       </div>
+                       <div class="items-price md-text">
+                           <p class="item-type">Discount</p>
+                           <p class="item-type-price">₹ 1774.52</p>
+                       </div>
+                       <div class="items-price md-text">
+                           <p class="item-type">Delivery</p>
+                           <p class="item-type-price">FREE</p>
+                       </div>
+                   </div>
+                   <div class="items-price total-price-container">
+                       <p class="item-type total-price lg-text">Total Amount</p>
+                       <p class="item-type-price total-price-value  md-text">₹ 628</p>
+                   </div>
+                   <div class="items-price total-saving-container">
+                       <p class="item-type total-saving md-text">You will save ₹ 1774.52 on this order </p>
+                   
+                   </div>
+                   
+                   <button class="btn btn-primary">PLACE ORDER</button>
+               </div>
+   
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content ">
+            <h4 class="lg-text text-center">Made With ❤️ By Priyanka Prajapati</h4>
+            <p class="text-center md-text">You can connect with me on:</p>
+            <div class="footer-links header-links x-lg-text">
+              <ul>
+                  <li><a href="https://github.com/prajapati-priyanka"><i class="fa fa-github-square"></i></a></li>
+                  <li> <a href="https://www.linkedin.com/in/priyanka-prajapati-853098146/"><i class="fa fa-linkedin-square"></i></a></li>
+              </ul>
+                
+               
+            </div>
+        </div>
+        
+    </footer> 
+    
+</body>
+</html>

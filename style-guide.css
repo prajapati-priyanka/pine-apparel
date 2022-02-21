@@ -80,6 +80,10 @@ body{
   align-items: center;
 }
 
+.header-icons a:hover{
+  color: var(--primary-color);
+ }
+
    /* footer */
 footer {
   bottom: 0; 
@@ -95,6 +99,7 @@ footer .footer-links ul {
   justify-content: center;
   align-items: center;
 }
+
 
 @media only screen and (max-width: 900px) {
   .search-container {
