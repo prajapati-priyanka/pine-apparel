@@ -1,6 +1,6 @@
 # Pine Apparel
 
-Pine Apparel is a latest fashion ecommerce website particulary for Women. India's Biggest brand's dresses, tops, Kurta-Set, Sarees etc. are available at our website.
+Pine Apparel is a latest fashion ecommerce website particularly for Women. India's Biggest brand's dresses, tops, Kurta-Set, Sarees etc. are available at our website.
 
 ## Tech Stack
 - HTML
